@@ -7,12 +7,11 @@
 
 ## Installation
 
-```
-pip install proxysocksrandom
-```
+```pip install proxysocksrandom```
+
 ## Usage
 
-```
+```python
 from proxysocksrandom import Proxies
 
 proxies = Proxies()
@@ -20,5 +19,4 @@ proxies.initialize()
 
 proxy = proxies.get_proxy('socks5')
 print(proxy)
-
 ```

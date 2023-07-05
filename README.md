@@ -10,3 +10,15 @@
 ```
 pip install proxysocksrandom
 ```
+## Usage
+
+```
+from proxysocksrandom import Proxies
+
+proxies = Proxies()
+proxies.initialize()
+
+proxy = proxies.get_proxy('socks5')
+print(proxy)
+
+```

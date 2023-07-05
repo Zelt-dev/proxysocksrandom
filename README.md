@@ -1,2 +1,12 @@
-# proxysocksrandom-
-proxysocksrandom is a Python module that helps you fetch and use random proxies from various sources for both HTTPS and SOCKS5 proxy types. It periodically updates the proxies list, ensuring you always have fresh proxies to choose from.
+# proxysocksrandom
+
+[![PyPI](https://img.shields.io/pypi/v/proxysocksrandom.svg)](https://pypi.org/project/proxysocksrandom/)
+[![License](https://img.shields.io/pypi/l/proxysocksrandom.svg)](https://github.com/example/proxysocksrandom/blob/main/LICENSE)
+
+`proxysocksrandom` is a Python module that provides functionality to fetch and use random SOCKS5 and HTTPS proxies from various sources.
+
+## Installation
+
+```
+pip install proxysocksrandom
+```
